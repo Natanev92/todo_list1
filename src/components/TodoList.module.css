@@ -1,0 +1,48 @@
+.form{
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background: rgb(82, 92, 80);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+    .form *{
+        margin: 10px;
+    }
+    .form input{
+        height: 25px;
+        background: rgb(186, 185, 185);
+    }
+    .form button{
+        padding: 5px 20px;
+        background: rgb(186, 185, 185);
+    }
+
+.list{
+    margin: 0px, 30px, 0px, 30px;
+    background: rgb(82, 92, 80);
+    width: content;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    min-width: 50%;
+}
+    .list table{
+        margin: 0px auto;
+    }
+        .list table td{
+            padding: 10px 100px;
+            background: rgb(186, 185, 185);
+        }
+
+.checked{
+    text-decoration: line-through;
+    background: rgb(96, 94, 94);
+}
+
+.unchecked{
+    text-decoration: none;
+    background: whitesmoke;
+}
